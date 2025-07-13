@@ -1,123 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StudySpark Official</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudySpark - Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f9f9f9;
-      color: #111;
-      line-height: 1.6;
-    }
-
-    header {
-      background-color: #001F3F;
-      color: white;
-      padding: 20px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header img {
-      height: 60px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: 500;
-    }
-
-    .hero {
-      background: linear-gradient(to right, #001F3F, #0074D9);
-      color: white;
-      padding: 100px 40px;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .about {
-      padding: 80px 40px;
-      text-align: center;
-    }
-
-    .about h2 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-      color: #001F3F;
-    }
-
-    .about p {
-      font-size: 1.1rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    footer {
-      background-color: #001F3F;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
-    }
-
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2.2rem;
-      }
-      .about h2 {
-        font-size: 2rem;
-      }
-    }
+    body { margin: 0; font-family: 'Inter', sans-serif; background: #f4f4f4; }
+    header { background-color: #001F3F; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    header img { height: 50px; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; }
+    .hero { padding: 80px 20px; background: linear-gradient(to right, #001F3F, #0074D9); color: white; text-align: center; }
+    .hero h1 { font-size: 3rem; margin: 0; }
+    footer { background: #001F3F; color: white; text-align: center; padding: 20px; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <header>
-    <img src="studyspark-logo.png" alt="StudySpark Logo">
+    <img src="studyspark-logo.png" alt="Logo">
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Courses</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="material.html">Study Material</a>
     </nav>
   </header>
-
-  <section class="hero">
+  <div class="hero">
     <h1>Welcome to StudySpark</h1>
-    <p>Empowering learners with world-class education and inspiring minds to spark brilliance.</p>
-  </section>
-
-  <section class="about">
-    <h2>About StudySpark</h2>
-    <p>
-      StudySpark is your gateway to premium-quality educational resources designed to unlock the full potential of every learner.
-      We are committed to delivering excellence in learning through structured guidance, curated content, and innovative tools.
-    </p>
-  </section>
-
-  <footer>
-    &copy; 2025 StudySpark Official. All rights reserved.
-  </footer>
+    <p>Your journey to smart learning begins here.</p>
+  </div>
+  <footer>&copy; 2025 StudySpark Official. All rights reserved.</footer>
 </body>
 </html>

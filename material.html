@@ -1,123 +1,115 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Thermodynamics – System and Its Types</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Material | StudySpark</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: transparent;
-      color: #222;
-      margin: 20px auto;
-      padding: 0 20px;
-      max-width: 800px;
-      line-height: 1.8;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #111;
     }
-
-    h1, h2 {
-      color: #4f46e5;
+    header, footer {
+      background-color: #001F3F;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-
-    h1 {
-      font-size: 2em;
+    header img { height: 50px; }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(to right, #001F3F, #0074D9);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2.5rem; }
+    .materials {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .material-section { margin-bottom: 40px; }
+    .material-section h2 {
+      color: #001F3F;
       margin-bottom: 10px;
     }
-
-    h2 {
-      margin-top: 30px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+    .material-list {
+      list-style: none;
+      padding-left: 0;
     }
-
-    .box {
-      padding: 20px;
-      margin-top: 20px;
-      border-left: 4px solid #6366f1;
-      border-radius: 6px;
+    .material-list li {
+      background: white;
+      padding: 15px 20px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-
-    .note {
-      background-color: #e0f2fe;
-      border-left: 5px solid #0284c7;
-      padding: 12px;
-      border-radius: 6px;
-      margin-top: 15px;
+    .material-list a {
+      color: #0074D9;
+      text-decoration: none;
+      font-weight: 500;
     }
-
-    ul {
-      margin-left: 20px;
-    }
-
-    li {
-      margin-bottom: 6px;
-    }
-
-    .emoji {
-      font-size: 1.2em;
-    }
-
-    hr {
-      margin: 30px 0;
-      border: none;
-      border-top: 1px solid #ddd;
+    footer {
+      justify-content: center;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="studyspark-logo.png" alt="StudySpark Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="material.html">Study Material</a>
+    </nav>
+  </header>
 
-  <h1>🌡️ Thermodynamics: System and Its Types</h1>
+  <section class="hero">
+    <h1>Download Study Material</h1>
+    <p>Get topic-wise notes, NCERT PDFs, and more — all for free!</p>
+  </section>
 
-  <div class="box">
-    <h2>🔬 Introduction</h2>
-    <p>Thermodynamics is a branch of chemistry that studies energy changes — especially the transfer of energy in the form of heat and work. It helps us understand how and why certain processes happen, and how energy flows within systems.</p>
-  </div>
-
-  <div class="box">
-    <h2>🌍 System and the Surroundings</h2>
-    <p><strong>System</strong>: A specific region or collection of matter where a thermodynamic process occurs.</p>
-    <p><strong>Surroundings</strong>: Everything outside the system — the rest of the universe that can interact with the system.</p>
-    <p><strong>Boundary</strong>: A real or imaginary line that separates the system from the surroundings. It can be fixed or movable.</p>
-
-    <ul>
-      <li><strong>Rigid Boundary:</strong> Doesn’t change shape or volume (e.g., a closed, rigid container).</li>
-      <li><strong>Diathermic Boundary:</strong> Allows heat transfer (e.g., metal lid of a beaker).</li>
-      <li><strong>Adiabatic Boundary:</strong> No heat transfer allowed (e.g., a perfectly insulated container).</li>
-    </ul>
-  </div>
-
-  <div class="box">
-    <h2>📦 Types of System</h2>
-
-    <p><strong>1. Open System:</strong> Can exchange both matter and energy with its surroundings. <br>
-    <em>Example: A boiling pot of water – heat and steam escape.</em></p>
-
-    <p><strong>2. Closed System:</strong> Can exchange energy (heat or work), but not matter. <br>
-    <em>Example: A sealed jar of gas.</em></p>
-
-    <p><strong>3. Isolated System:</strong> Can exchange neither matter nor energy. <br>
-    <em>Example: An insulated thermos flask.</em></p>
-
-    <div class="note">
-      <strong>Khoobsurat Baat 💡</strong><br>
-      <strong>The universe</strong> is a perfect example of an isolated system. 🌌<br>
-      Since there is nothing beyond it, no heat or mass can go out or come in.
+  <section class="materials">
+    <div class="material-section">
+      <h2>📘 Physics</h2>
+      <ul class="material-list">
+        <li>Chapter 1 - Units & Measurements <a href="#">Download PDF</a></li>
+        <li>Chapter 2 - Motion in a Straight Line <a href="#">Download PDF</a></li>
+      </ul>
     </div>
-  </div>
+    <div class="material-section">
+      <h2>🧪 Chemistry</h2>
+      <ul class="material-list">
+        <li>Chapter 1 - Basic Concepts of Chemistry <a href="#">Download PDF</a></li>
+        <li>Chapter 2 - Structure of Atom <a href="#">Download PDF</a></li>
+      </ul>
+    </div>
+    <div class="material-section">
+      <h2>🧮 Mathematics</h2>
+      <ul class="material-list">
+        <li>Chapter 1 - Sets & Relations <a href="#">Download PDF</a></li>
+        <li>Chapter 2 - Trigonometry <a href="#">Download PDF</a></li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="box">
-    <h2>🧠 Questions to Test Yourself</h2>
-    <ol>
-      <li>A gas is contained in a piston-cylinder arrangement. The gas expands, doing work on the piston. Identify the system, surroundings, and boundary.</li>
-      <li>What happens when methane undergoes combustion in system A and B respectively? <br>
-      <strong>Date:</strong> 13<sup>th</sup> April 2023</li>
-    </ol>
-
-    <p class="emoji">📌 <strong>Hint:</strong> In System A, temperature rises; in System B, temperature remains constant as heat escapes (diathermic boundary).</p>
-  </div>
-
-  <hr>
-
-  <p style="text-align:center;">📝 <em>This blog post is part of the <strong>Thermodynamics Series</strong> – Stay tuned for the next one!</em></p>
-
+  <footer>&copy; 2025 StudySpark Official. All rights reserved.</footer>
 </body>
-    </html>
+</html>
