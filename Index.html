@@ -47,4 +47,25 @@
     }
   </script>
 </body>
-</html>
+
+  <script>
+  function filterCourses() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const listItems = document.querySelectorAll('#courseList li');
+    listItems.forEach(item => {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(filter)) {
+        item.style.display = 'block';
+        item.innerHTML = highlightMatch(item.textContent, filter);
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  function highlightMatch(text, match) {
+    const regex = new RegExp(`(${match})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+  </script>
